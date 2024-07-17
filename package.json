@@ -1,0 +1,14 @@
+{
+  "name": "coffeepj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css":"tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "author": "xeoxeo",
+  "license": "ISC",
+  "description": "xeoxeo",
+  "devDependencies": {
+    "tailwindcss": "^3.4.6"
+  }
+}
